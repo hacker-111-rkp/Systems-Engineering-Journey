@@ -25,23 +25,19 @@ sol = Solution()
 a=sol.twoSum([3,4,5,6],7)
 print(a)
 #two pointers 
-def two_sum_two_pointers(nums: list[int], target: int) -> list[int]:
-
-    left = 0
-    right = len(nums) - 1
-    
-    while left < right:
-        current_sum = nums[left] + nums[right]
-        
-        if current_sum == target:
-            return [left, right] 
-            
-        
-        elif current_sum < target:
-            left += 1
-            
-        
-        else:
-            right -= 1
-            
-    return [] 
+class Solution:
+    def twoSum(self,nums,target):
+        nums.sort()
+        left = 0
+        right = len(nums)-1
+        while left<right :
+            sum= nums[left]+nums[right]
+            if sum<target:
+                left+=1
+            elif sum == target:
+                return [left , right ]
+            else:
+                right-=1 
+sol = Solution()
+a=sol.twoSum([3,4,5,6],7)
+print(a)
