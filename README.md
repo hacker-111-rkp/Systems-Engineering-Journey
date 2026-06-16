@@ -21,6 +21,12 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 | **Day 02** | [Two Integer Sum II](https://neetcode.io/problems/two-integer-sum-ii/question?list=neetcode150) | 🟡 Medium | Left/Right boundary pointers meeting in the middle to achieve ideal $O(1)$ constant space |
 | **Day 03** | [3SUM](https://neetcode.io/problems/three-integer-sum/question) | 🟡 Medium | Three sum along with no repeated list tc=o(n^2), sc=o(1)|
 
+## 📦 1. Sliding Window
+| Timeline | Problem Name | Difficulty | Key Concept Learned |
+| :---: | :--- | :---: | :--- |
+| **Day 04** | [Best Time to Buy and Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150) | 🟢 Easy |  |
+
+
 ---
 
 ## 🛠️ Tech Stack & Focus
