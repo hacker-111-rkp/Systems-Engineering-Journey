@@ -13,6 +13,7 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 | :---: | :--- | :---: | :--- |
 | **Day 01** | [Two Integer Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | 🟢 Easy | Multi-method study: Brute Force $O(N^2)$ to Optimal Hash Map $O(N)$ complement lookup |
 | **Day 02** | [Duplicate Integer](https://neetcode.io/problems/duplicate-integer/question?list=neetcode150) | 🟢 Easy | Multi-method study: Nested Loops $O(N^2)$ → Sorting $O(N \log N)$ → Optimal Hash Set $O(N)$ |
+| **Day 05** | [Kth Largest Number ](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  🟡 Medium |  |
 
 ## 🔄 2. Two Pointers & Sliding Window
 | Timeline | Problem Name | Difficulty | Key Concept Learned |
