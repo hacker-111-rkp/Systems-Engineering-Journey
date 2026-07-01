@@ -1,4 +1,5 @@
-
+# tc -- o(N*M)
+#SC -- O(1)
 class Solution(object):
     def maximumWealth(self, accounts):
         digit=0
@@ -13,3 +14,9 @@ class Solution(object):
 sol=Solution()
 print(sol.maximumWealth([[3,2,1],[4,5,3]]))
 #12
+class Solution(object):
+    def maximumWealth(self, accounts):
+        return max(map(sum,accounts))
+        
+sol=Solution()
+print(sol.maximumWealth([[3,2,1],[4,5,3]]))
