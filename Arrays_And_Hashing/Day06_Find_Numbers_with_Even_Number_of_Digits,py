@@ -7,3 +7,31 @@ class Solution(object):
         return count
 sol=Solution()
 print(sol.findNumbers([55,66,234,222222]))
+"""Time Complexity: $O(N \cdot K)$, where $N$ is the number of elements and $K$ is the number of digits
+in the numbers (due to string conversion).Space Complexity: $O(K)$ to store the string representation of the current number."""
+
+#mathematical approach 
+
+def findNumbers(nums):
+    count = 0
+    for num in nums:
+        num = abs(num)
+        digits = 0
+        while num > 0:
+            num //= 10
+            digits += 1
+        if digits % 2 == 0:
+            count += 1
+    return count
+
+#log approach 
+import math
+def findNumbers(nums):
+    count = 0
+    for num in nums:
+        if num == 0: continue # 0 has 1 digit (odd)
+        # log10(abs(num)) gives the power of 10
+        digits = int(math.log10(abs(num))) + 1
+        if digits % 2 == 0:
+            count += 1
+    return count
