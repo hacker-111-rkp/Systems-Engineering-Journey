@@ -11,7 +11,7 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 ## 📦 1. Arrays & Hashing
 | Timeline | Problem Name | Difficulty | Key Concept Learned |
 | :---: | :--- | :---: | :--- |
-| **Day 01** | [Two Integer Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | 🟢 Easy | Hash Map lookup $O(N)$ |
+| **Day 01/07** | [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | 🟢 Easy | Hash Map lookup $O(N)$ |
 | **Day 02/07** | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/question?list=neetcode150) | 🟢 Easy | Hash Set utilization |
 | **Day 05** | [Kth Largest Number](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | Min-Heaps $O(N \log K)$ |
 | **Day 05** | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | 🟢 Easy | Two-pointer $O(1)$ space |
@@ -21,7 +21,6 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 | **Day 06** | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | Array indexing |
 | **Day 06** | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | Linear traversal state |
 | **Day 07** | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | Hash Map |
-| **Day 07** | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map |
 | **Day 07** | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Set |
 | **Day 07** | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Map |
 | **Day 08** | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | Frequency Count |
