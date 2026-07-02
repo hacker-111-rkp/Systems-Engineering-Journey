@@ -20,8 +20,18 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 | **Day 06** | [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | Prefix Sum pattern |
 | **Day 06** | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | Array indexing |
 | **Day 06** | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | Linear traversal state |
+| **Day 07** | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Hash Set |
+| **Day 07** | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | Hash Map |
+| **Day 07** | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map |
+| **Day 07** | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Set |
+| **Day 07** | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Map |
+| **Day 08** | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | Frequency Count |
+| **Day 08** | [Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | Hash Map |
+| **Day 08** | [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | Frequency Count |
+| **Day 08** | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Map |
+| **Day 08** | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Map + String Encoding |
 
-## 🔄 2. Two Pointers & Sliding Window
+## 🔄 2. Two Pointers
 | Timeline | Problem Name | Difficulty | Key Concept Learned |
 | :---: | :--- | :---: | :--- |
 | **Day 01** | [Valid Palindrome](https://neetcode.io/problems/is-palindrome) | 🟢 Easy | Two pointers inward |
@@ -33,16 +43,10 @@ Welcome to my daily algorithmic tracking center! I am using this 60-day holiday 
 | **Day 06** | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Swapping/Shifting |
 | **Day 06** | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | 🟢 Easy | Extreme value comparison |
 
-## 📦 3. Sliding Window
+## 🪟 3. Sliding Window
 | Timeline | Problem Name | Difficulty | Key Concept Learned |
 | :---: | :--- | :---: | :--- |
-| **Day 04** | [Best Time to Buy and Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150) | 🟢 Easy | Min-price tracking |
-
-## 🛠️ Tech Stack & Focus
-* **Language:** Python 🐍
-* **Approach:** Implementing multiple solutions (Brute Force, Better, Optimal) per problem to master trade-offs.
-* **Core Metrics:** Time Complexity $O(N)$ and Space Complexity $O(1)$ optimization.
-
+| **Day 04** | [Best Time to Buy/Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150) | 🟢 Easy | Min-price tracking |
 ## 🛠️ Tech Stack & Focus
 * **Language:** Python 🐍
 * **Current Focus:** Analyzing Time Complexity $O(N)$ and Space Complexity.
