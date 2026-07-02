@@ -14,3 +14,4 @@ class Solution(object):
         return left
 sol=Solution()
 print(sol.removeElement([3,3,3,2,2,1,1],3))
+#in this we can also use swap with last element or building a new list which does not contain val value 
