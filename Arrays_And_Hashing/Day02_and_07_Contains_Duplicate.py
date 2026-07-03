@@ -1,16 +1,16 @@
 #hash map
-class Solution:
-    def hasDuplicate(self,nums):
-        count=0
-        hashmap={}
-        for i,number in enumerate(nums):
-            if number in hashmap:
+class Solution(object):
+    def containsDuplicate(self, nums):
+        hash={}
+        for i in nums:
+            if i in hash:
                 return True
-            else :
-                hashmap[number]=i
-        return False
-sol = Solution()
-print(sol.hasDuplicate([1, 2, 3, 3]))
+                break
+            hash[i]=1
+        else:
+            return False
+sol=Solution()
+print(sol.containsDuplicate([1,2,2,3,4]))
 #hash set 
 class Solution:
     def hasDuplicate(self, nums):
