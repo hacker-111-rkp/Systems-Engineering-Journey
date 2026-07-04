@@ -1,4 +1,5 @@
-#hash map
+
+#extra dict 
 class Solution(object):
     def containsDuplicate(self, nums):
         hash={}
