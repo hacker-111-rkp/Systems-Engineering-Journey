@@ -1,17 +1,16 @@
 #hash map method 
-class Solution:
-    def twoSum(self,nums,target):
+class Solution(object):
+    def twoSum(self, nums, target):
         hashmap={}
-        for i,nums in enumerate(nums):
-            complement = target - nums   
-            if complement in hashmap:
-                return [hashmap[complement] , i ]
-            
-            hashmap[nums] = i
+        for index,value in enumerate(nums):
+            num = target - value
+            if num in hashmap:
+                return index,hashmap[num]
+            hashmap[value]=index
 
-sol = Solution()
-a=sol.twoSum([3,4,5,6],7)
-print(a)
+sol=Solution()
+print(sol.twoSum([2,7,11,15],9))
+        
 
 #brute force 
 class Solution:
