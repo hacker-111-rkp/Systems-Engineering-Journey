@@ -15,7 +15,7 @@ class Solution(object):
                 low = mid + 1
             else:
                 high = mid - 1
-
+                
         return ans
 
     def right_occurrence(self, nums, target):
