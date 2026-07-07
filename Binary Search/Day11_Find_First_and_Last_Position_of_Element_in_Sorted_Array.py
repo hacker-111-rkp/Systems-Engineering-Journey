@@ -1,2 +1,43 @@
-#
-#TC--o(),sc--O()
+class Solution(object):
+
+    def left_occurrence(self, nums, target):
+        low = 0
+        high = len(nums) - 1
+        ans = -1
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] == target:
+                ans = mid
+                high = mid - 1      # Search left
+            elif nums[mid] < target:
+                low = mid + 1
+            else:
+                high = mid - 1
+
+        return ans
+
+    def right_occurrence(self, nums, target):
+        low = 0
+        high = len(nums) - 1
+        ans = -1
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] == target:
+                ans = mid
+                low = mid + 1       # Search right
+            elif nums[mid] < target:
+                low = mid + 1
+            else:
+                high = mid - 1
+
+        return ans
+
+    def searchRange(self, nums, target):
+        left = self.left_occurrence(nums, target)
+        right = self.right_occurrence(nums, target)
+
+        return [left, right]
