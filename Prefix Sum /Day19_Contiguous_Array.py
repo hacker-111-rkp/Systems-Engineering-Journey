@@ -10,7 +10,7 @@ class Solution:
             else:
                 prefix+=1
             if prefix in h:
-                count=max(count,i-h[prefix])
+                count=max(count,i-h[prefix])#length = current_index - first_index
             else:
                 h[prefix]=i
         return count
