@@ -22,7 +22,7 @@
 # by prefix sum 
 class Solution(object):
     def numSubarraysWithSum(self, nums, goal):
-        h={0:1}
+        h={0:1}# at index 0 add 1 like prefix sum was 0 before
         prefix=0
         count=0
         for i in range(len(nums)):
