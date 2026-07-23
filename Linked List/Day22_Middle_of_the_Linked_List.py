@@ -8,6 +8,17 @@ class Solution:
             curr=curr.next
         mid=len(nodes)//2
         return nodes[mid]
-        
+#or 
+'''
 
+def middleList(head):
+    slow,fast=head,head
+    while fast and  fast.next :
+        slow=slow.next
+        fast=fast.next.next
+    return slow
+    
+
+'''
+        
 
